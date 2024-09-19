@@ -1,0 +1,213 @@
+:root {
+  --navbar-background-color: #0075b8d6;
+}
+
+.nav-bar-container {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  top: 3vh;
+  justify-content: center;
+  z-index: 100;
+}
+
+.nav-bar {
+  backdrop-filter: blur(4px);
+  width: 1330px;
+  min-height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar .logo {
+  margin-left: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 46px;
+  font-weight: 400;
+}
+
+.nav-bar li a {
+  color: rgb(0, 0, 0);
+  display: block;
+  text-decoration: none;
+  margin: 0 18px;
+  font-size: 25px;
+  transition: 0.3s ease;
+}
+
+.nav-bar img {
+  margin-right: 20px;
+}
+
+.nav-bar li a:hover {
+  color: #2c4b57;
+  transform: scale(1.03);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  transition: 0.5s linear all;
+}
+
+.profile:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.profile span {
+  font-size: 18px;
+  color: #000000;
+  margin-right: 3px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.logout-button {
+  display: flex;
+  width: 100px;
+  border-radius: 8px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  color: white;
+  border: 1px solid #000000;
+  background: #176a76;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  transition: 0.3s, color 0.3s;
+  margin-right: 22px;
+}
+
+.logout-button:hover {
+  color: #fff;
+  background-color: #3d7579;
+}
+
+.logout-img {
+  height: 18px;
+  width: 18px;
+  fill: white;
+  transition: fill 0.3s;
+}
+
+.logout-button:hover .logout-img {
+  fill: white;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.password-form {
+  width: 330px;
+  height: 300px;
+}
+.password-form button {
+  width: 100px;
+  margin-top: 25px;
+  border-radius: 20px;
+  transition: 0.3s linear all;
+}
+.password-form button:hover {
+  background: none;
+  color: cadetblue;
+  border: 2px solid cadetblue;
+  transform: scale(1);
+  width: 150px;
+}
+
+.password-form .btn-submit {
+  width: 150px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.password-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* margin-left: -20px; */
+  margin-top: -6px;
+}
+
+.profile-form-div {
+  /* margin-top: 20px; */
+
+  position: static;
+  /* margin-top: 10vh; */
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+  .nav-bar {
+    flex-direction: column;
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+  .user-actions {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+  .links {
+    flex-direction: column;
+  }
+}

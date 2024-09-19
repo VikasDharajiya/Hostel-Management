@@ -1,0 +1,171 @@
+.room-management {
+  padding: 20px;
+}
+
+.create-btn {
+  background-color: #5ca4a9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: none !important;
+}
+
+.create-btn:hover {
+  background-color: #3c7d7d;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #5ca4a9;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.assigned-user {
+  display: flex;
+  /* align-items: center; */
+  /* margin-bottom: 5px; */
+  /* margin: 0px 18px 5px 18px !important; */
+  flex-direction: row;
+  margin-bottom: 5px;
+  background-color: #a0d7db;
+  padding: 0px 12px 0px 12px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.assigned-user button {
+  margin-left: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.assigned-user button:hover {
+  background-color: #d43f3f;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #5ca4a9;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #3c7d7d;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.action-btn {
+  height: 42px;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none !important;
+}
+
+td,
+th {
+  text-align: center;
+}
+
+.swal2-popup {
+  bottom: 0 !important;
+  top: auto !important;
+  transform: none !important;
+  margin-bottom: 0px !important;
+}
+
+@media (max-width: 768px) {
+  .table {
+    overflow-x: auto;
+    height: 70%;
+  }
+  .btn-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,671 @@
+/* .container2{
+    height: 580px;
+    width: 820px;
+    justify-content: center;
+    align-content`qw-q: center;
+    background-color: #5a9186;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+} */
+.container1 {
+  /* height: 470px; */
+  width: 690px;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+  margin-top: -30px;
+  /* margin-left: 63px;  */
+  display: flex;
+  border-radius: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container1 img {
+  margin-top: -45px;
+  margin-left: -6;
+  height: 505px;
+  width: 410px;
+  display: block;
+  /* margin-left: -50px; */
+  margin-top: -24px;
+  object-fit: contain;
+}
+.sign-in-up-page-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-up-page-container .sign-main-container {
+  background-color: white;
+  width: 350px;
+  /* height: 200px; */
+  /* margin: 10px; */
+  /* box-shadow: 0px 7px 15px -3px rgba(0,0,0,0.1); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 15px 20px 15px;
+  border-radius: 20px;
+  color: #001f3f;
+}
+.sign-main-container1 {
+  background-color: white;
+  width: 350px;
+  /* height: 200px; */
+  /* margin: 10px; */
+  /* box-shadow: 0px 7px 15px -3px rgba(0,0,0,0.1); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 15px 20px 15px;
+  border-radius: 20px;
+  color: #001f3f;
+  width: 750px;
+  margin-top: 5px;
+}
+.sign-main-container {
+  margin-left: -18px;
+}
+
+.sign-in-up-page-container .sign-main-container h1 {
+  margin: 30px 0 20px 0;
+  color: #001f3f;
+  margin-left: -40px;
+}
+.sign-main-container1 h1 {
+  margin: 30px 0 20px 0;
+  color: #001f3f;
+  margin-left: -40px;
+}
+.sign-in-up-page-container .sign-main-container form {
+  display: flex;
+  gap: -10px;
+  flex-direction: column;
+}
+
+.sign-main-container1 form {
+  display: flex;
+  gap: -10px;
+  flex-direction: column;
+}
+
+.sign-in-up-page-container .sign-main-container div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.sign-main-container1 div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.sign-in-up-page-container .sign-main-container div select {
+  width: 249px;
+}
+
+.sign-main-container1 div select {
+  width: 249px;
+}
+
+.sign-in-up-page-container .sign-main-container div input,
+select {
+  border: none;
+  height: 40px;
+  /* object-fit:scale-down; */
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 280px;
+  padding-left: 5px;
+  background-color: #cde8e5;
+}
+.sign-main-container1 div input,
+select {
+  border: none;
+  height: 40px;
+  /* object-fit:scale-down; */
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 280px;
+  padding-left: 5px;
+  background-color: #cde8e5;
+}
+
+.sign-in-up-page-container .sign-main-container div label {
+  margin: 5px;
+}
+.sign-main-container1 div label {
+  margin: 5px;
+}
+.sign-in-up-page-container .sign-main-container button {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px 0;
+  background-color: #4e6d7a;
+  color: white;
+  font-size: 1rem;
+}
+.sign-in-up-page-container .sign-main-container button:hover {
+  background-color: #54879c;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.sign-in-up-page-container .sign-main-container p {
+  margin-bottom: 10px;
+  color: rgb(55, 55, 55);
+}
+.sign-main-container1 p {
+  margin-bottom: 10px;
+  color: rgb(55, 55, 55);
+}
+
+.sign-in-up-page-container .sign-main-container p span {
+  color: #004770;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sign-main-container1 p span {
+  color: #004770;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sign-main-container1 .sign-in-password span {
+  margin-top: -5px;
+}
+.sign-main-container1 .sign-up-gender select {
+  width: 275px;
+  background-color: #cde8e5 !important;
+  border-radius: 10px;
+}
+.sign-main-container1 .sign-in-password i {
+  margin-left: -400px;
+}
+.sign-main-container1 .sign-up-con-password span {
+  margin-top: -5px;
+}
+.sign-main-container1 .sign-up-con-password i {
+  margin-left: -40px;
+}
+
+.sign-main-container1 .sign-up-name input {
+  width: 650px;
+}
+.sign-main-container1 .sign-up-name {
+  margin-top: 24px;
+  margin-left: 15px;
+}
+.sign-main-container1 .sign-up-email {
+  margin-top: -340px;
+  margin-left: 15px;
+}
+.sign-main-container1 .sign-up-parent-email {
+  margin-top: -340px;
+  margin-left: -295px;
+}
+.sign-main-container1 .sign-up-phone {
+  margin-top: -265px;
+  margin-left: 15px;
+}
+.sign-main-container1 .sign-up-gender {
+  margin-top: -265px;
+  margin-left: -295px;
+}
+.sign-main-container1 .sign-in-password {
+  margin-top: -190px;
+  margin-left: 15px;
+}
+.sign-main-container1 .sign-up-con-password {
+  margin-top: -190px;
+  margin-left: -295px;
+}
+.sign-in-up-page-container .sign-main-container p span:hover {
+  color: #001f3f;
+}
+.sign-main-container1 p span:hover {
+  color: #001f3f;
+}
+.sign-main-container1 p {
+  margin-top: -30px;
+}
+.sign-main-container1 fieldset {
+  border: none;
+}
+.sign-main-container1 form .info {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr) 2fr repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+}
+.sign-main-container1 form .info .sign-up-name {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.sign-main-container1 form .info .sign-up- {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.sign-main-container1 .sign-up-email {
+  grid-area: 2;
+}
+.sign-main-container1 .sign-up-parent-email {
+  grid-area: 2;
+}
+.sign-main-container1 .sign-up-phone {
+  grid-area: 3;
+}
+.sign-main-container1 .sign-up-gender {
+  grid-area: 3;
+}
+.sign-main-container1 .sign-in-password {
+  grid-area: 4;
+}
+
+.sign-main-container1 .sign-up-con-password {
+  grid-area: 4;
+}
+
+.sign-main-container1 input[type="submit"]:hover {
+  transform: scale(1);
+  background-color: #54879c;
+  cursor: pointer;
+}
+.sign-main-container1 input[type="submit"] {
+  border: none;
+  transform: scale(1);
+  margin-top: 400px;
+  margin-left: -390px;
+  width: 90px;
+  padding: 11px;
+  border-radius: 50px;
+}
+@media (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .container1 .img {
+    margin-left: 100px;
+  }
+
+  .container1 .img img {
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    margin-top: 400px;
+  }
+  .sign-main-container h1 {
+    /* margin-left: 100%; */
+    font-size: 1.8rem;
+  }
+  .sign-main-container input {
+    background-color: #cde8e5;
+    /* padding: 40px; */
+  }
+}
+@media (max-width: 600px) {
+  .container1 .img img {
+    width: 80%;
+    height: 350px;
+    background-color: white;
+    margin-top: 300px;
+  }
+  .container1 .img {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 480px) {
+  .container1 .img img {
+    width: 98%;
+    height: 300px;
+    background-color: white;
+    margin-top: 300px;
+  }
+  .container1 .img {
+    margin-left: 10px;
+  }
+  .sign-main-container {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .sign-main-container1 {
+    background-color: white;
+    /* background-color: transparent; */
+    width: 100%;
+    height: 850px;
+    display: block;
+    margin-top: 100px;
+    /* margin-left: 200px; */
+  }
+  .sign-main-container1 h1 {
+    margin-left: 300px;
+    display: block;
+  }
+  .sign-main-container1 .sign-up-name {
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-name input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-email {
+    grid-area: 2;
+    margin-top: -606px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-email input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-parent-email {
+    grid-area: 3;
+    margin-top: -531px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-parent-email input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-phone {
+    grid-area: 4;
+    margin-top: -455px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-phone input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-gender {
+    grid-area: 5;
+    margin-top: -383px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-gender select {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-in-password {
+    grid-area: 6;
+    margin-top: -313px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-in-password input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-con-password {
+    grid-area: 7;
+    margin-left: 150px;
+    margin-top: -228px;
+  }
+  .sign-main-container1 .sign-up-con-password input {
+    width: 390px;
+  }
+  .sign-main-container1 p {
+    margin-top: 217px;
+    margin-left: 260px;
+  }
+  .sign-main-container1 input[type="submit"] {
+    margin-top: 655px;
+    margin-left: -250px;
+  }
+  .sign-main-container1 .sign-in-password i {
+    margin-left: -35px;
+  }
+  .sign-main-container1 .sign-up-con-password i {
+    margin-left: -35px;
+  }
+}
+@media (max-width: 600px) {
+  .sign-main-container1 {
+    background-color: white;
+    /* background-color: transparent; */
+    width: 900px;
+    height: 850px;
+    display: block;
+    margin-top: 92px;
+    /* margin-left: 200px; */
+  }
+  .sign-main-container1 h1 {
+    margin-left: 300px;
+    display: block;
+  }
+  .sign-main-container1 .sign-up-name {
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-name input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-email {
+    grid-area: 2;
+    margin-top: -606px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-email input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-parent-email {
+    grid-area: 3;
+    margin-top: -531px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-parent-email input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-phone {
+    grid-area: 4;
+    margin-top: -455px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-phone input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-gender {
+    grid-area: 5;
+    margin-top: -383px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-gender select {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-in-password {
+    grid-area: 6;
+    margin-top: -313px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-in-password input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-con-password {
+    grid-area: 7;
+    margin-left: 150px;
+    margin-top: -228px;
+  }
+  .sign-main-container1 .sign-up-con-password input {
+    width: 390px;
+  }
+  .sign-main-container1 p {
+    margin-top: 217px;
+    margin-left: 260px;
+  }
+  .sign-main-container1 input[type="submit"] {
+    margin-top: 655px;
+    margin-left: -250px;
+  }
+  .sign-main-container1 .sign-in-password i {
+    margin-left: -35px;
+  }
+  .sign-main-container1 .sign-up-con-password i {
+    margin-left: -35px;
+  }
+}
+@media (max-width: 480px) {
+  .sign-main-container1 {
+    background-color: white;
+    /* background-color: transparent; */
+    width: 850px;
+    height: 850px;
+    display: block;
+    margin-top: 270px;
+    /* margin-left: 200px; */
+  }
+  .sign-main-container1 h1 {
+    margin-left: 300px;
+    display: block;
+  }
+  .sign-main-container1 .sign-up-name {
+    margin-left: 200px;
+  }
+  .sign-main-container1 .sign-up-name input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-email {
+    grid-area: 2;
+    margin-top: -606px;
+    margin-left: 200px;
+  }
+  .sign-main-container1 .sign-up-email input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-parent-email {
+    grid-area: 3;
+    margin-top: -531px;
+    margin-left: 200px;
+  }
+  .sign-main-container1 .sign-up-parent-email input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-phone {
+    grid-area: 4;
+    margin-top: -455px;
+    margin-left: 200px;
+  }
+  .sign-main-container1 .sign-up-phone input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-gender {
+    grid-area: 5;
+    margin-top: -383px;
+    margin-left: 200px;
+  }
+  .sign-main-container1 .sign-up-gender select {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-in-password {
+    grid-area: 6;
+    margin-top: -313px;
+    margin-left: 200px;
+  }
+  .sign-main-container1 .sign-in-password input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-con-password {
+    grid-area: 7;
+    margin-left: 200px;
+    margin-top: -228px;
+  }
+  .sign-main-container1 .sign-up-con-password input {
+    width: 390px;
+  }
+  .sign-main-container1 p {
+    margin-top: 217px;
+    margin-left: 260px;
+  }
+  .sign-main-container1 input[type="submit"] {
+    margin-top: 655px;
+    margin-left: -250px;
+  }
+  .sign-main-container1 .sign-in-password i {
+    margin-left: -35px;
+  }
+  .sign-main-container1 .sign-up-con-password i {
+    margin-left: -35px;
+  }
+}
+@media (max-width: 350px) {
+  .sign-main-container1 {
+    background-color: white;
+    /* background-color: transparent; */
+    width: 850px;
+    height: 900px;
+    display: block;
+    margin-top: 392px;
+    margin-left: 200px;
+  }
+  .sign-main-container1 h1 {
+    margin-left: 300px;
+    display: block;
+  }
+  .sign-main-container1 .sign-up-name {
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-name input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-email {
+    grid-area: 2;
+    margin-top: -606px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-email input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-parent-email {
+    grid-area: 3;
+    margin-top: -531px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-parent-email input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-phone {
+    grid-area: 4;
+    margin-top: -455px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-phone input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-gender {
+    grid-area: 5;
+    margin-top: -383px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-up-gender select {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-in-password {
+    grid-area: 6;
+    margin-top: -313px;
+    margin-left: 150px;
+  }
+  .sign-main-container1 .sign-in-password input {
+    width: 390px;
+  }
+  .sign-main-container1 .sign-up-con-password {
+    grid-area: 7;
+    margin-left: 150px;
+    margin-top: -228px;
+  }
+  .sign-main-container1 .sign-up-con-password input {
+    width: 390px;
+  }
+  .sign-main-container1 p {
+    margin-top: 217px;
+    margin-left: 260px;
+  }
+  .sign-main-container1 input[type="submit"] {
+    margin-top: 655px;
+    margin-left: -250px;
+  }
+  .sign-main-container1 .sign-in-password i {
+    margin-left: -35px;
+  }
+  .sign-main-container1 .sign-up-con-password i {
+    margin-left: -35px;
+  }
+}

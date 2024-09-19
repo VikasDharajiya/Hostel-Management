@@ -1,0 +1,106 @@
+.statistics-tab {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card {
+  width: calc(25% - 20px);
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+  font-size: 36px;
+}
+
+.blue {
+  color: #3498db;
+}
+.yellow {
+  color: #f39c12;
+}
+.green {
+  color: #2ecc71;
+}
+.orange {
+  color: #e67e22;
+}
+.purple {
+  color: #9b59b6;
+}
+.pink {
+  color: #e91e63;
+}
+.teal {
+  color: #009688;
+}
+.dark {
+  color: #34495e;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-value {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: calc(100% - 20px);
+  }
+}
+
+.chart-container {
+  padding-top: 30px;
+  background-color: #cde8e5;
+  /* width: 1200px; */
+}

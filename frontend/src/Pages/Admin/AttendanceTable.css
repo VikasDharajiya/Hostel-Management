@@ -1,0 +1,111 @@
+.table {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.341);
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #5ca4a9;
+  color: white;
+  border-radius: 10px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #5ca4a9;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.attendance-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 30%;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attendance-btn.present.selected {
+  background-color: #0ca559;
+}
+.attendance-btn.present:hover {
+  background-color: #3ab477;
+}
+.attendance-btn.absent.selected {
+  background-color: #fe3a3a;
+}
+.attendance-btn.absent:hover {
+  background-color: #fb5e5e;
+}
+.attendance-btn:hover {
+  opacity: 0.8;
+}
+
+.btn-submit {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  background-color: #5ca4a9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.btn-submit:hover {
+  background-color: #8bb8c3;
+}
+
+.btn-submit:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.date-picker {
+  display: inline;
+  margin: 20px auto 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: 500;
+}
+/* input[type="date"]{
+    background-color: #c6e2e9;
+  } */
