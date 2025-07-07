@@ -48,7 +48,7 @@ Sign up at email.js and obtain your API keys.
 
 
 For Admin:
-    Email-id: vikasdharajiya@gmail.com
+    Email-id: vikas@gmail.com
     Password: 1234
 
 
