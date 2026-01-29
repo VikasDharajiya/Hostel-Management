@@ -14,7 +14,7 @@ Leader : Nikita Purohit
       4. Bhavy Patel 
       5. Vikash Dharajiya
       6. Chintan Chauhan 
-      7. Priyansh Aal
+      7. Tirth Makwana 
 
 
 Frontend Technology:
